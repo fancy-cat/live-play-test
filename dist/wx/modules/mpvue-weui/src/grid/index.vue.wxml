@@ -1,0 +1,10 @@
+<template name="059e50ec">
+  <view class="_div data-v-3e5d77f9 weui-grids" wx:if="{{gridData.length>0}}">
+    <block wx:key="index" key="{{index}}" wx:for="{{gridData}}" wx:for-index="index" wx:for-item="item">
+      <navigator url="{{item.url}}" class="_navigator data-v-3e5d77f9 weui-grid" hover-class="weui-grid_active">
+        <image class="_image data-v-3e5d77f9 weui-grid__icon" src="{{item.src}}"></image>
+        <view class="_div data-v-3e5d77f9 weui-grid__label">{{item.name}}</view>
+      </navigator>
+    </block>
+  </view>
+</template>

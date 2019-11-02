@@ -1,0 +1,9 @@
+<template name="0f247c0e">
+  <view class="_div data-v-7766513f weui-loading-content" wx:if="{{showLoading}}">
+    <view class="_div data-v-7766513f weui-loading-mask" wx:if="{{mask}}"></view>
+    <view class="_div data-v-7766513f weui-loading-detail">
+      <view class="_div data-v-7766513f weui-loading"></view>
+      <view class="_div data-v-7766513f weui-loading-text">{{loadingText}}</view>
+    </view>
+  </view>
+</template>

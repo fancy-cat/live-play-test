@@ -1,0 +1,21 @@
+<template name="b676c79c">
+  <view class="_div data-v-44bd6d21 weui-uploader">
+    <view class="_div data-v-44bd6d21 weui-uploader__hd" wx:if="{{showTip}}">
+      <view class="_div data-v-44bd6d21 weui-uploader__title">图片上传</view>
+      <view class="_div data-v-44bd6d21 weui-uploader__info">{{files.length}}/{{maxLength}}</view>
+    </view>
+    <view class="_div data-v-44bd6d21 weui-uploader__bd">
+      <view class="_div data-v-44bd6d21 weui-uploader__files" id="uploaderFiles">
+        <view wx:key="index" key="{{index}}" wx:for="{{files}}" wx:for-index="index" wx:for-item="item" class="_div data-v-44bd6d21">
+          <view class="_div data-v-44bd6d21 weui-uploader__file">
+            <image class="_image data-v-44bd6d21 weui-uploader__img" src="{{item}}" mode="aspectFill" bindtap="handleProxy" id="{{item}}" data-eventid="{{'0_'+index}}" data-comkey="{{$k}}"></image>
+            <view class="_div data-v-44bd6d21 delete-icon" bindtap="handleProxy" id="{{item}}" data-index="{{index}}" key="{{index}}" data-eventid="{{'1_'+index}}" data-comkey="{{$k}}"></view>
+          </view>
+        </view>
+      </view>
+      <view class="_div data-v-44bd6d21 weui-uploader__input-box" hidden="{{!(!isMaxHiddenChoose || (files.length < maxLength))}}">
+        <view class="_div data-v-44bd6d21 weui-uploader__input" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}"></view>
+      </view>
+    </view>
+  </view>
+</template>

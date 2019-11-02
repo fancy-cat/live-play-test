@@ -1,0 +1,26 @@
+<template name="448178d2">
+  <view class="_div data-v-59f0db48 header">
+    <view class="_div data-v-59f0db48 page__bd">
+      <view class="_div data-v-59f0db48 weui-tab">
+        <view class="_div data-v-59f0db48 weui-navbar" size="mini">
+          <block wx:key="index" key="{{index}}" wx:for="{{tabs}}" wx:for-index="index" wx:for-item="item">
+            <view id="{{index}}" bindtap="handleProxy" data-eventid="{{'0_'+index}}" data-comkey="{{$k}}" class="_div data-v-59f0db48 {{['weui-navbar__item', activeIndex === index ? 'weui-bar__item_on' : '']}}">
+              <view class="_div data-v-59f0db48 weui-navbar__title">{{item}}</view>
+            </view>
+          </block>
+        </view>
+        <view class="_div data-v-59f0db48 weui-tab__panel">
+          <view wx:key="index" key="{{index}}" class="_div data-v-59f0db48 flex-wrap" bindtap="handleProxy" data-eventid="{{'1_'+index}}" data-comkey="{{$k}}" wx:for="{{playerList}}" wx:for-index="index" wx:for-item="play">
+            <view class="_div data-v-59f0db48 flex-item-l">
+              <image src="/static/images/play.png" class="_img data-v-59f0db48"></image>
+            </view>
+            <view class="_div data-v-59f0db48 flex-item-r">
+              <view class="_h3 data-v-59f0db48">直播标题{{play.id}}</view>
+              <view class="_div data-v-59f0db48">快进来看看吧哈哈哈哈哈哈哈哈哈哈哈。。。</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

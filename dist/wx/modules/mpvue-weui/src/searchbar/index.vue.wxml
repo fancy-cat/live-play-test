@@ -1,0 +1,16 @@
+<template name="77c3efbd">
+  <view class="_div data-v-523586a4 weui-search-bar">
+    <view class="_div data-v-523586a4 weui-search-bar__form">
+      <view class="_div data-v-523586a4 weui-search-bar__box">
+        <icon class="_icon data-v-523586a4 weui-icon-search_in-box" type="search" size="14"></icon> <input type="text" class="_input data-v-523586a4 weui-search-bar__input" placeholder="{{placeholder}}" value="{{inputValue}}" bindinput="handleProxy" focus="{{isFocusData}}" confirm-type="{{confirmType}}" bindblur="handleProxy" bindfocus="handleProxy" bindconfirm="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" />
+        <view class="_div data-v-523586a4 weui-icon-clear" wx:if="{{inputValue.length > 0}}" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">
+          <icon type="clear" size="14" class="_icon data-v-523586a4"></icon>
+        </view>
+      </view> <label class="_label data-v-523586a4 weui-search-bar__label" hidden="{{isFocusData}}" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}">
+        <icon class="_icon data-v-523586a4 weui-icon-search" type="search" size="14"></icon>
+        <view class="_div data-v-523586a4 weui-search-bar__text">搜索</view>
+      </label>
+    </view>
+    <view class="_div data-v-523586a4 weui-search-bar__cancel-btn" hidden="{{!isFocusData}}" bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}">取消</view>
+  </view>
+</template>

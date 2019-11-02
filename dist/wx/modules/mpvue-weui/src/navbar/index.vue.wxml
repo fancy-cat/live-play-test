@@ -1,0 +1,14 @@
+<template name="ac7424d8">
+  <view class="_div data-v-524c2e43 weui-tab">
+    <view class="_div data-v-524c2e43 weui-navbar">
+      <view wx:key="index" key="{{index}}" id="{{index}}" class="_div data-v-524c2e43 weui-navbar__item {{[activeIndex == index ? 'weui-bar__item_on' : '']}}" bindtap="handleProxy" data-eventid="{{'0_'+index}}" data-comkey="{{$k}}" wx:for="{{tabs}}" wx:for-index="index" wx:for-item="item">
+        <view class="_div data-v-524c2e43 weui-navbar__title">{{item}}</view>
+      </view>
+    </view>
+    <view class="_div data-v-524c2e43 weui-navbar-content__slider">
+      <view class="_div data-v-524c2e43 weui-navbar-slider" wx:key="index" key="{{index}}" wx:for="{{tabs}}" wx:for-index="index" wx:for-item="item">
+        <view class="_div data-v-524c2e43 weui-navbar-slider-inner {{[activeIndex == index ? 'weui-navbar-slider-on' : '']}}"></view>
+      </view>
+    </view>
+  </view>
+</template>

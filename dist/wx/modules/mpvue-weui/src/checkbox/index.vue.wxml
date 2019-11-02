@@ -1,0 +1,10 @@
+<template name="a8439972">
+  <checkbox-group bindchange="handleProxy" id="1" class="_checkbox-group data-v-4bd70436 weui-checkbox-group" data-eventid="{{'0'}}" data-comkey="{{$k}}"><label class="_label data-v-4bd70436 weui-checkbox" wx:key="index" key="{{index}}" wx:for="{{listRender}}" wx:for-index="index" wx:for-item="item">
+      <checkbox class="_checkbox data-v-4bd70436 weui-checkbox-input" value="{{item.value}}" type="checkbox" checked="{{item.checked}}" disabled="{{item.disabled || false}}" />
+      <view class="_div data-v-4bd70436 weui-checkbox-icon">
+        <icon hidden="{{!(item.checked!==true)}}" class="_icon data-v-4bd70436 weui-checkbox-icon-circle {{item.disabled ? 'weui-checkbox-diabled' : ''}}" type="circle" size="23"></icon>
+        <icon hidden="{{!(item.checked===true)}}" class="_icon data-v-4bd70436 weui-checkbox-icon-success {{item.disabled ? 'weui-checkbox-diabled' : ''}}" type="success" size="23"></icon>
+      </view>
+      <view class="_div data-v-4bd70436 weui-checkbox-bd">{{item.value}}</view>
+    </label></checkbox-group>
+</template>

@@ -1,0 +1,11 @@
+<template name="76fd81e5">
+  <view class="_div data-v-755c9fd8 main-wrap">
+    <view class="_div data-v-755c9fd8 play-wrap">
+      <live-player class="_live-player data-v-755c9fd8 live-player" bindfullscreenchange="screenChange"></live-player>
+      <view class="_div data-v-755c9fd8 user-info"><label class="_span data-v-755c9fd8 item">观看人数：777</label> <label class="_span data-v-755c9fd8 item header-img">
+          <image src="/static/images/play.png" alt class="_img data-v-755c9fd8"></image>
+        </label> <button size="mini" class="_button data-v-755c9fd8 item btn" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">关注</button></view>
+    </view>
+    <view class="_div data-v-755c9fd8">123</view>
+  </view>
+</template>

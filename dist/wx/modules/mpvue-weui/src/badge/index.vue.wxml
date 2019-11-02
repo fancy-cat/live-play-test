@@ -1,0 +1,4 @@
+<import src="/components/slots" /><template name="3e1be375"><label class="_label data-v-228350e6 weui-badge-relative"><template name="default"></template><template data="{{...$root[$p], ...$root[$k], $root}}" is="{{$slotdefault || 'default'}}"></template>
+    <view wx:if="{{dot && isShowBadge && !info}}" class="_div data-v-228350e6 {{badgeDotClass}}"></view>
+    <view wx:if="{{info && isShowBadge && !dot}}" class="_div data-v-228350e6 {{badgeInfoClass}}">{{info}}</view>
+  </label></template>

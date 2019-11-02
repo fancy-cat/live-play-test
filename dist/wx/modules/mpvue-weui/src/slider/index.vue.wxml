@@ -1,0 +1,2 @@
+<template name="71963925">
+  <slider min="{{min}}" max="{{max}}" step="{{step}}" disabled="{{disabled}}" value="{{value}}" backgroundColor="{{backgroundColor}}" activeColor="{{activeColor}}" block-size="{{blockSize}}" block-color="{{blockColor}}" show-value="{{showValue}}" bindchange="handleProxy" bindchanging="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_slider data-v-1a1c79d4" /></template>

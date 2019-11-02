@@ -1,0 +1,3 @@
+<template name="76e83eb8">
+  <view class="_div data-v-05b88113 weui-rate"><label class="_span data-v-05b88113 weui-rate-item {{item}}" wx:key="index" key="{{index}}" bindtap="handleProxy" data-eventid="{{'0_'+index}}" data-comkey="{{$k}}" wx:for="{{itemClasses}}" wx:for-index="index" wx:for-item="item"></label></view>
+</template>

@@ -1,0 +1,1 @@
+<import src="/modules/mpvue-citypicker/src/mpvueCityPicker.vue.wxml" /><template name="508d0182"><template ref="mpvueCityPicker" bindonChange="handleProxy" bindonCancel="handleProxy" bindonConfirm="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" data="{{...$root[$kk+'0'], $root}}" is="19fc0462"></template></template>

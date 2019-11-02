@@ -1,0 +1,5 @@
+<template name="55e1ebb8">
+  <view class="_div data-v-032fa732 weui-switch-content">
+    <switch checked="{{switchValue}}" disabled="{{disabled}}" bindchange="handleProxy" color="{{color}}" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_switch data-v-032fa732" />
+  </view>
+</template>

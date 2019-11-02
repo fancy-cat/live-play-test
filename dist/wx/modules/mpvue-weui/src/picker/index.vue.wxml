@@ -1,0 +1,1 @@
+<import src="/modules/mpvue-picker/src/mpvue-picker/mpvuePicker.vue.wxml" /><template name="0c9e56dc"><template ref="mpvuePicker" bindonChange="handleProxy" bindonConfirm="handleProxy" bindonCancel="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" data="{{...$root[$kk+'0'], $root}}" is="2416a58f"></template></template>
